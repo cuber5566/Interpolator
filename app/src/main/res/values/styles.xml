@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ProgressBar" />
+
+    <style name="ProgressBar.Custom">
+        <item name="android:indeterminateDuration">@integer/custom_progressbar_animation_duration
+        </item>
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_circle</item>
+        <item name="android:layout_margin">@dimen/default_gap</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Anticipate">
+        <item name="android:interpolator">@android:interpolator/anticipate</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Accelerate_decelerate">
+        <item name="android:interpolator">@android:interpolator/accelerate_decelerate</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Accelerate_cubic">
+        <item name="android:interpolator">@android:interpolator/accelerate_cubic</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Accelerate_quad">
+        <item name="android:interpolator">@android:interpolator/accelerate_quad</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Accelerate_quint">
+        <item name="android:interpolator">@android:interpolator/accelerate_quint</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Anticipate_overshoot">
+        <item name="android:interpolator">@android:interpolator/anticipate_overshoot</item>
+    </style>
+    <style name="ProgressBar.Custom.Bounce">
+        <item name="android:interpolator">@android:interpolator/bounce</item>
+    </style>
+
+    <style name="ProgressBar.Custom.cycle">
+        <item name="android:interpolator">@android:interpolator/cycle</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Decelerate_quad">
+        <item name="android:interpolator">@android:interpolator/decelerate_quad</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Decelerate_cubic">
+        <item name="android:interpolator">@android:interpolator/decelerate_cubic</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Decelerate_quint">
+        <item name="android:interpolator">@android:interpolator/decelerate_quint</item>
+    </style>
+
+    <style name="ProgressBar.Custom.Linear">
+        <item name="android:interpolator">@android:interpolator/linear</item>
+    </style>
+
+    <style name="ProgressBar.Custom.overshoot">
+        <item name="android:interpolator">@android:interpolator/overshoot</item>
+    </style>
+</resources>
